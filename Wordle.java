@@ -139,7 +139,8 @@ public class Wordle {
         }
 
         if (!won) {
-        System.out.println("Game over. The word was " + secret);
+        System.out.println("Sorry, you did not guess the word.");
+        System.out.println("The secret word was: " + secret );
         }
 
         inp.close();
